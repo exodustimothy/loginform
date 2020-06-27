@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 40vw;
+    background-color: rgb(226, 226, 226);
+    padding: 0 40px;
+    min-height: 100vh;
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.container p {
+    border: 1px solid gray;
+    padding: 7px;
+}
+
+.box {
+    border: 1px solid gray;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container img {
+    display: block;
+    width: 40%;
+    border-radius: 60%;
+    margin: 0 auto;
+}
+
+.container p:nth-child(2){
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+}
+
+.container button {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
